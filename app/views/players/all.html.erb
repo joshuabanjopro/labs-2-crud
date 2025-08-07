@@ -1,0 +1,7 @@
+<h1>Come and meet the Pillars of the League...</h1>
+
+<ol>
+    <% @players.each do |player| %>
+        <li><%= player.name %> plays <%= player.position %></li>
+    <% end %>
+</ol>
